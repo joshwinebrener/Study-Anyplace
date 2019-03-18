@@ -1,0 +1,9 @@
+# launcher icon support
+dev_dependencies: 
+  flutter_launcher_icons: "^0.7.0"
+  
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path_ios: "assets/icon/tps_logo_ios.png"
+  image_path_android: "assets/icon/tps_logo_android.png"
