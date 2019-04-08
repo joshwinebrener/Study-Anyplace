@@ -32,10 +32,7 @@ class _AssignmentsPageState extends State<AssignmentsPage> with AutomaticKeepAli
   initState() {
     super.initState();
 
-    // trigger onRefresh of RefreshIndicator to show progress indicator while loading
-    Future.delayed(Duration(milliseconds: 2)).then((_) {
-      _refreshIndicatorKey.currentState?.show();
-    });
+    _getAssignments();
   }
 
   @override

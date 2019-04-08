@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:http/http.dart' as http;
 import 'login_page.dart';
@@ -42,6 +43,8 @@ void logout(BuildContext context) async {
   final storage = new FlutterSecureStorage();
 
   storage.deleteAll();
+
+  DefaultCacheManager().emptyCache();
 
   Navigator.pushAndRemoveUntil(
     context,

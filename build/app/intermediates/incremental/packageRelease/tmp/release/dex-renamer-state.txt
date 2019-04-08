@@ -1,0 +1,4 @@
+#Mon Apr 08 14:43:09 EDT 2019
+base.0=/Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/app/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

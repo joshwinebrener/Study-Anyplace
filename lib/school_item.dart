@@ -9,17 +9,17 @@ import 'package:study_anyplace/message.dart';
 import 'package:study_anyplace/simple_html_view.dart';
 import 'package:http/http.dart' as http;
 import 'package:url_launcher/url_launcher.dart';
+import 'package:study_anyplace/coin_button.dart';
 
 class SchoolItem extends StatelessWidget {
-  SchoolItem(this.icon, this.title, this.subtitle, this.date, this.metadata, this.data, this.color);
+  SchoolItem(this.icon, this.title, this.subtitle, this.date, this.metadata, this.data);
   
-  final Icon icon;
+  final Widget icon;
   final String title;
   final String subtitle;
   final String date;
   final String metadata;
   final Widget data;
-  final Color color;
 
   @override
   Widget build(BuildContext context) {
@@ -40,11 +40,7 @@ class SchoolItem extends StatelessWidget {
               padding: const EdgeInsets.only(
                 left: 20.0
               ),
-              child: CircleAvatar(
-                radius: 24.0,
-                backgroundColor: this.color,
-                child: this.icon,
-              )
+              child: this.icon,
             ),
             Padding(
               padding: const EdgeInsets.all(16.0),
@@ -95,10 +91,14 @@ class SchoolItem extends StatelessWidget {
 
 class AssignmentItem extends SchoolItem {
   AssignmentItem.fromAssignment(Assignment assignment) : super(
-    Icon(
-      Icons.edit,
-      color: Colors.grey[850],
-      size: 30.0,
+    CircleAvatar(
+      radius: 24.0,
+      backgroundColor: assignment.status.inSeconds > 0 ? Colors.green : Colors.red,
+      child: Icon(
+        Icons.edit,
+        color: Colors.grey[850],
+        size: 30.0,
+      ),
     ),
     assignment.title,
     '${assignment.section}',
@@ -117,17 +117,12 @@ class AssignmentItem extends SchoolItem {
         );
       },
     ),
-    assignment.status.inSeconds > 0 ? Colors.green : Colors.red,
   );
 }
 
 class MessageItem extends SchoolItem {
   MessageItem.fromMessage(Message message) : super(
-    Icon(
-      message.isRead ? Icons.drafts : Icons.markunread,
-      color: Colors.grey[850],
-      size: 30.0,
-    ),
+    CoinButton(message: message),
     message.title, 
     message.author,
     DateFormat.yMd().format(DateTime.parse(message.date)).toString(),
@@ -145,7 +140,7 @@ class MessageItem extends SchoolItem {
         }
       },
     ),
-    message.isRead ? Colors.green : Colors.red,
+    //message.isRead ? Colors.green : Colors.red,
   );
 }
 

@@ -34,10 +34,7 @@ class _MessagesPageState extends State with AutomaticKeepAliveClientMixin {
   initState() {
     super.initState();
 
-    // trigger onRefresh of RefreshIndicator to show progress indicator while loading
-    Future.delayed(Duration(milliseconds: 2)).then((_) {
-      _refreshIndicatorKey.currentState?.show();
-    });
+    _getMessages();
   }
 
   @override

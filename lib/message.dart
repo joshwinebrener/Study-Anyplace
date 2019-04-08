@@ -5,8 +5,10 @@ import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:study_anyplace/auth.dart' as auth;
 import 'dart:convert';
+import 'package:http/http.dart' as http;
 
 bool firstRefresh = true;
+final _url = 'https://www.pottersschool.org/StudyPlace/cc/announcement/crud?&type=mine';
 
 class Message {
   final String title;
@@ -14,8 +16,9 @@ class Message {
   final String date;
   final String html;
   final String author;
-  final bool isRead;
+  bool isRead;
   final String type;
+  final String id;
 
   Message.fromJson(Map jsonMap)
     : title = jsonMap['title'],
@@ -24,7 +27,46 @@ class Message {
       html = jsonMap['html'],
       author = jsonMap['author'],
       isRead = jsonMap['read'],
-      type = jsonMap['type'];
+      type = jsonMap['type'],
+      id = jsonMap['id'];
+
+  void toggleRead() async {
+    if (this.isRead) markUnread();
+    else markRead();
+    this.isRead = !this.isRead;
+  }
+
+  void markRead() async {
+    await auth.authenticate();
+    final storage = new FlutterSecureStorage();
+    String _cookie = await storage.read(key: 'cookie');
+
+    var client = http.Client();
+    client.put(
+      _url,
+      headers: {
+        'Cookie': _cookie,
+        'Content-Type': 'application/json',
+      },
+      body: '{"id":"${this.id}","_action":"markRead"}',
+    );
+  }
+
+    void markUnread() async {
+    await auth.authenticate();
+    final storage = new FlutterSecureStorage();
+    String _cookie = await storage.read(key: 'cookie');
+
+    var client = http.Client();
+    client.put(
+      _url,
+      headers: {
+        'Cookie': _cookie,
+        'Content-Type': 'application/json',
+      },
+      body: '{"id":"${this.id}","_action":"markUnread"}',
+    );
+  }
 }
 
 /// Retrieves a stream of messages either from the network or local asset
@@ -45,9 +87,8 @@ Future<Stream<Message>> getMessagesFromNetwork() async {
   await auth.authenticate();
   final storage = new FlutterSecureStorage();
   String _cookie = await storage.read(key: 'cookie');
-  final url = 'https://www.pottersschool.org/StudyPlace/cc/announcement/crud?_dc=1536679750592&type=mine&page=1&start=0&limit=1000';
   FileInfo fileInfo = await DefaultCacheManager().downloadFile(
-    url,
+    _url,
     authHeaders: {'Cookie': _cookie,}
   );
   return new Stream.fromFuture(fileInfo.file.readAsString()).transform(json.decoder)
@@ -65,8 +106,7 @@ Future<Stream<Message>> getMessagesFromFile() async {
 
 /// Retrieves the messages from cache
 Future<Stream<Message>> getMessagesFromCache() async {
-  final url = 'https://www.pottersschool.org/StudyPlace/cc/announcement/crud?_dc=1536679750592&type=mine&page=1&start=0&limit=1000';
-  FileInfo fileInfo = await DefaultCacheManager().getFileFromCache(url);
+  FileInfo fileInfo = await DefaultCacheManager().getFileFromCache(_url);
   return new Stream.fromFuture(fileInfo.file.readAsString())
     .transform(json.decoder)
     .expand((jsonBody) => (jsonBody as Map)['rs'])

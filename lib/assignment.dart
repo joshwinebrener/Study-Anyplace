@@ -7,6 +7,8 @@ import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 
 String _cookie;
 bool firstRefresh = true;
+const _url = 'https://www.pottersschool.org/StudyPlace/cc/lms_due_item/family?&type=remaining&page=1&start=0&limit=50&sort=%5B%7B%22property%22%3A%22date_due%22%2C%22direction%22%3A%22ASC%22%7D%5D';
+
 
 class Assignment {
   final String title;
@@ -62,14 +64,9 @@ Future<Stream<Assignment>> getAssignmentsFromNetwork() async {
   await auth.authenticate();
   final storage = new FlutterSecureStorage();
   _cookie = await storage.read(key: 'cookie');
-  // Upcoming Assignments
-  const url = 'https://www.pottersschool.org/StudyPlace/cc/lms_due_item/family?&type=remaining&page=1&start=0&limit=50&sort=%5B%7B%22property%22%3A%22date_due%22%2C%22direction%22%3A%22ASC%22%7D%5D';
-  
-  // TODO: add support for all assignments
-  //const allUrl = 'https://www.pottersschool.org/StudyPlace/cc/lms_due_item/family?_dc=1543528152406&type=All&page=1&start=0&limit=1000&sort=[{"property":"date_due","direction":"ASC"}]';
   
   FileInfo fileInfo = await DefaultCacheManager().downloadFile(
-    url,
+    _url,
     authHeaders: {'Cookie': _cookie,}
   );
 
@@ -89,8 +86,7 @@ Future<Stream<Assignment>> getAssignmentsFromFile() async {
 /// Retrieves a stream of assignments from a local cache, and gets files
 /// from the network if it fails.
 Future<Stream<Assignment>> getAssignmentsFromCache() async {
-  final url = 'https://www.pottersschool.org/StudyPlace/cc/lms_due_item/family?&type=remaining&page=1&start=0&limit=50&sort=%5B%7B%22property%22%3A%22date_due%22%2C%22direction%22%3A%22ASC%22%7D%5D';
-  FileInfo fileInfo = await DefaultCacheManager().getFileFromCache(url);
+  FileInfo fileInfo = await DefaultCacheManager().getFileFromCache(_url);
   return new Stream.fromFuture(fileInfo.file.readAsString())
     .transform(json.decoder)
     .expand((jsonBody) => (jsonBody as Map)['rs'])

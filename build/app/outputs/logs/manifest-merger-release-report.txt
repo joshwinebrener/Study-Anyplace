@@ -1,0 +1,194 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from [:flutter_secure_storage] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/flutter_secure_storage/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:url_launcher] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:2:1-14:12
+MERGED from [:sqflite] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/path_provider/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha01.aar/fe999b32e22ca57c0681a26734b9b5ac/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/56c657ef88b3abcd3e8c1a67b285dce2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0-alpha02] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0-alpha02.aar/bc9bc6e62c34c5e4e3f0648a7fa72293/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/e77c2b64d154832bc7d1a9ceeee4db77/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/f56e70c517d80e2ba59a1d0bcf175dff/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/08500832010f2eda03f8bdaef5c54313/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/113790d58d7ded22ba92d9c80f0d7fec/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/40c42ef367172e8b4e58b1dd1dd8fe10/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/872240b9cbae631cc9767a424a44cc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/768cbbe0a1fa4837ef1ac236a98f6ecf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1da93f85c5d52fb84d16b2c1f5b7d904/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-alpha02] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/activity-1.0.0-alpha02.aar/42d9cd4a7288f595b4e17e5b85d19767/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/e86db07bb67e0f268b7a3b52d08b8550/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/97c2c7374c55dd71d712e04d94498907/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/454b6d7e51390194e9068b3b095a9260/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/b05d1c509dacdc7106b99f5c69a9d033/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/4dd656ca18e61fbdffc0ccb0b5634c44/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-alpha01] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha01.aar/409cf35df1837900c7be592dfe88cc0c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha01.aar/5619b1b9ac706bc2698e5c52817b11a0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/4434f512683c8c8ada1b18970303b91e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/a1930a1a791686d936f4f714de443d48/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/55849b4cb75e43672f1cc22198ca8bb6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/ab1172489eb99c186d9df66cde8e2b3b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/13f0636b9873512515ce75cc857cd4df/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/b5b646d1cd9866c2de9d87a3b6597edd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/c018c643175dd8288f867f2fc2a4cfba/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/9d2ce535d880e6a73a3f54cd28215163/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/f323cec7269ecf9dd4d275ba5fe36432/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/2950ffe55163f7152c1823f72278783c/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:1:1-39:12
+	package
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:2:5-40
+		INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:8:22-64
+application
+ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:15:5-38:19
+MERGED from [:url_launcher] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.core:core:1.1.0-alpha01] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha01.aar/409cf35df1837900c7be592dfe88cc0c/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-alpha01] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha01.aar/409cf35df1837900c7be592dfe88cc0c/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha01.aar/5619b1b9ac706bc2698e5c52817b11a0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha01.aar/5619b1b9ac706bc2698e5c52817b11a0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-alpha01] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha01.aar/409cf35df1837900c7be592dfe88cc0c/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:17:9-39
+	android:icon
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:18:9-45
+	android:name
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:16:9-57
+activity#com.example.studyanyplace.MainActivity
+ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:19:9-37:20
+	android:launchMode
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:21:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:24:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:25:13-55
+	android:configChanges
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:23:13-137
+	android:theme
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:22:13-47
+	android:name
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:20:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:30:13-32:40
+	android:value
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:32:17-37
+	android:name
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:31:17-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:33:13-36:29
+action#android.intent.action.MAIN
+ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:34:17-68
+	android:name
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:35:17-76
+	android:name
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml:35:27-74
+uses-sdk
+INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml
+MERGED from [:flutter_secure_storage] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/flutter_secure_storage/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:flutter_secure_storage] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/flutter_secure_storage/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:url_launcher] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/path_provider/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/path_provider/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha01.aar/fe999b32e22ca57c0681a26734b9b5ac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha01.aar/fe999b32e22ca57c0681a26734b9b5ac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/56c657ef88b3abcd3e8c1a67b285dce2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/56c657ef88b3abcd3e8c1a67b285dce2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha02] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0-alpha02.aar/bc9bc6e62c34c5e4e3f0648a7fa72293/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha02] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0-alpha02.aar/bc9bc6e62c34c5e4e3f0648a7fa72293/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/e77c2b64d154832bc7d1a9ceeee4db77/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/e77c2b64d154832bc7d1a9ceeee4db77/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/f56e70c517d80e2ba59a1d0bcf175dff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/f56e70c517d80e2ba59a1d0bcf175dff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/08500832010f2eda03f8bdaef5c54313/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/08500832010f2eda03f8bdaef5c54313/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/113790d58d7ded22ba92d9c80f0d7fec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/113790d58d7ded22ba92d9c80f0d7fec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/40c42ef367172e8b4e58b1dd1dd8fe10/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/40c42ef367172e8b4e58b1dd1dd8fe10/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/872240b9cbae631cc9767a424a44cc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/872240b9cbae631cc9767a424a44cc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/768cbbe0a1fa4837ef1ac236a98f6ecf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/768cbbe0a1fa4837ef1ac236a98f6ecf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1da93f85c5d52fb84d16b2c1f5b7d904/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1da93f85c5d52fb84d16b2c1f5b7d904/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha02] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/activity-1.0.0-alpha02.aar/42d9cd4a7288f595b4e17e5b85d19767/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha02] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/activity-1.0.0-alpha02.aar/42d9cd4a7288f595b4e17e5b85d19767/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/e86db07bb67e0f268b7a3b52d08b8550/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/e86db07bb67e0f268b7a3b52d08b8550/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/97c2c7374c55dd71d712e04d94498907/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/97c2c7374c55dd71d712e04d94498907/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/454b6d7e51390194e9068b3b095a9260/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/454b6d7e51390194e9068b3b095a9260/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/b05d1c509dacdc7106b99f5c69a9d033/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/b05d1c509dacdc7106b99f5c69a9d033/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/4dd656ca18e61fbdffc0ccb0b5634c44/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/4dd656ca18e61fbdffc0ccb0b5634c44/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha01] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha01.aar/409cf35df1837900c7be592dfe88cc0c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha01] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha01.aar/409cf35df1837900c7be592dfe88cc0c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha01.aar/5619b1b9ac706bc2698e5c52817b11a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha01.aar/5619b1b9ac706bc2698e5c52817b11a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/4434f512683c8c8ada1b18970303b91e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/4434f512683c8c8ada1b18970303b91e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/a1930a1a791686d936f4f714de443d48/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/a1930a1a791686d936f4f714de443d48/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/55849b4cb75e43672f1cc22198ca8bb6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/55849b4cb75e43672f1cc22198ca8bb6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/ab1172489eb99c186d9df66cde8e2b3b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/ab1172489eb99c186d9df66cde8e2b3b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/13f0636b9873512515ce75cc857cd4df/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/13f0636b9873512515ce75cc857cd4df/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/b5b646d1cd9866c2de9d87a3b6597edd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/b5b646d1cd9866c2de9d87a3b6597edd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/c018c643175dd8288f867f2fc2a4cfba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/c018c643175dd8288f867f2fc2a4cfba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/9d2ce535d880e6a73a3f54cd28215163/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/9d2ce535d880e6a73a3f54cd28215163/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/f323cec7269ecf9dd4d275ba5fe36432/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/f323cec7269ecf9dd4d275ba5fe36432/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/2950ffe55163f7152c1823f72278783c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/joshwinebrener/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/2950ffe55163f7152c1823f72278783c/AndroidManifest.xml:20:5-44
+INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/android/app/src/main/AndroidManifest.xml
+activity#io.flutter.plugins.urllauncher.UrlLauncherPlugin$WebViewActivity
+ADDED from [:url_launcher] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] /Users/joshwinebrener/my_code/my_flutter_projects/Study-Anyplace/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:9:13-92
